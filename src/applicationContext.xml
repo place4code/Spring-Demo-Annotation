@@ -10,6 +10,7 @@
 
 	<!-- add entry to enable component scanning -->
 	<context:component-scan base-package="com.place4code.springdemo" />
+    <context:property-placeholder location="classpath:options.properties"/>
      
     
 </beans>

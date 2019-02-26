@@ -1,4 +1,5 @@
-# Spring with annotation - Introduction
+# Spring with annotation - Introduction, continuation
 
 
- > Annotation for beans config
+ > Annotation for beans configuration
+ > I've learned how to use: @Autowired, @Qualifier, @Value
