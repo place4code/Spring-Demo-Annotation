@@ -6,3 +6,5 @@
  > I've learned how to use: @Autowired, @Qualifier, @Value
 
  > @PostConstruct, @PreDestroy
+
+ > How to config with Java Code, @Bean
