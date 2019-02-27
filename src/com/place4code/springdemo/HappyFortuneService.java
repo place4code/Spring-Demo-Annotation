@@ -1,5 +1,7 @@
 package com.place4code.springdemo;
 
+import javax.annotation.PostConstruct;
+
 import org.springframework.stereotype.Component;
 
 @Component
@@ -15,5 +17,10 @@ public class HappyFortuneService implements FortuneService {
 		// TODO Auto-generated method stub
 		return null;
 	}
-
+	
+	@PostConstruct
+	public void test() {
+		System.out.println("test postConstruct HappyFortuneService");
+	}
+	
 }
